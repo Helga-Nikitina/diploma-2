@@ -1,0 +1,861 @@
+p, a, h1, h2, h3, h4, h5, h6, span, form, input, textarea, hr, br, ul, li, ol, img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+@font-face {
+  font-family: Roboto;
+  src: url(https://github.com/Helga-Nikitina/diploma-2/blob/master/fonts/Roboto-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: exo;
+  src: url(https://github.com/Helga-Nikitina/diploma-2/blob/master/fonts/Exo2-Bold.ttf);
+  font-style: bold;
+  font-weight: 800;
+}
+
+h2 {
+  font-family: exo;
+  font-size: 40px;
+  line-height: 56px;
+  color: #4A8146;
+  margin-bottom: 24px;
+}
+
+p {
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 36px;
+  color: #444444;
+  padding-bottom: 8px;
+}
+
+.welcome {
+  position: relative;
+  background-image: url("https://raw.githubusercontent.com/Helga-Nikitina/diploma-2/master/img/welcome.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #fff;
+}
+
+.menu {
+  box-sizing: border-box;
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  padding-top: 28px;
+  box-shadow: 0 0 16px rgba(0,0,0,0.2);
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-list {
+  display: flex;
+}
+
+.contact-list {
+  display: flex;
+  text-align: right;
+}
+
+.map-img {
+  margin-right: 8px;
+}
+
+.menu-list-item {
+  list-style-type: none;
+}
+
+.menu-list-item-icon {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-list-item:nth-child(n+2) {
+  margin-left: 24px;
+}
+
+.menu-link {
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 24px;
+  color: #444444;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  box-sizing: border-box;
+  height: 432px;
+  padding-left: 20px;
+}
+
+.welcome-title {
+  position: relative;
+  width: 592px;
+  padding-top: 120px;
+}
+
+.header {
+  font-family: exo;
+  font-size: 64px;
+  line-height: 80px;
+  color: #4A8146;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.instruction {
+  width: 100%;
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article {
+  display: flex;
+  height: 352px;
+  align-items: center;
+}
+
+
+.img-block {
+  width: 50%;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.active-img-1 {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+}
+
+
+.p-instr {
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 36px;
+  color: #444444;
+  text-align: left;
+}
+
+.dostavka-block {
+  background-color: #F4F4F4;
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.dostavka {
+  width: 1033px;
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about {
+  width: 680px;
+  margin-bottom: 56px;
+}
+
+.blocks {
+  display: flex;
+}
+
+.first-block{
+  width: 49%;
+}
+
+.products {
+  width: 1033px;
+  padding-top: 72px;
+  padding-bottom: 72px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-type {
+  display: flex;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+}
+
+.product:nth-child(n+2) {
+  margin-left: 56px;
+}
+
+.product-img {
+  padding-right: 16px;
+}
+
+.podpiska {
+  width: 1033px;
+  padding-top: 72px;
+  padding-bottom: 72px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.podpiska-cards {
+  display: flex;
+}
+
+.card {
+  box-sizing: border-box;
+  width: 312px;
+  min-width: 232px;
+  height: 390px;
+  box-shadow: 0 0 16px rgba(0,0,0,0.2);
+  border-radius: 16px;
+  
+  background-image: url("https://raw.githubusercontent.com/Helga-Nikitina/diploma-2/master/img/card%20(1).png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  
+  padding-top: 24px;
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+.card:nth-child(n+2) {
+  margin-left: 24px;
+}
+
+h3 {
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 36px;
+  color: #4A8146;
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.h-card {
+  padding-top: 166px;
+}
+
+.subscribe {
+  position: relative;
+  background-image: url("https://raw.githubusercontent.com/Helga-Nikitina/diploma-2/master/img/connect.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #fff;
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.subscription-group {
+  width: 1033px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.field {
+  box-sizing: border-box;
+  width: 504px;
+  height: 56px;
+  
+  box-shadow: 0 0 16px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  padding-left: 24px;
+  
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 36px;
+  color: #4A8146;
+}
+
+.button {
+  box-sizing: border-box;
+  height: 56px;
+  border: none;
+  
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
+  
+  cursor: pointer;
+  margin-left: 16px;
+  background-color: #4A8146;
+  border-radius: 8px;
+  padding: 0 24px 0;
+  
+}
+
+@media (min-width: 1366px) and (max-width: 2560px) {
+  .welcome {
+    position: relative;
+    background-image: url("https://raw.githubusercontent.com/Helga-Nikitina/diploma-2/master/img/welcome.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #fff;
+  }
+
+  .menu {
+    box-sizing: border-box;
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    padding-top: 28px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.2);
+  }
+
+  .menu-list {
+    width: 100%;
+    max-width: 1033px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-list {
+    display: flex;
+  }
+
+  .contact-list {
+    display: flex;
+    text-align: right;
+  }
+
+  .map-img {
+    margin-right: 8px;
+  }
+
+  .menu-list-item {
+    list-style-type: none;
+  }
+
+  .menu-list-item-icon {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu-list-item:nth-child(n+2) {
+    margin-left: 24px;
+  }
+
+  .menu-link {
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 24px;
+    color: #444444;
+    text-decoration: none;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1033px;
+    
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .welcome-title {
+    position: relative;
+    width: 592px;
+    padding-top: 120px;
+  }
+
+  .header {
+    font-family: exo;
+    font-size: 64px;
+    line-height: 80px;
+    color: #4A8146;
+    text-align: left;
+    margin-bottom: 24px;
+  }
+
+  .instruction {
+    width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .instr-text-first {
+    width: 472px;
+    padding-left: 167px;
+    padding-right: 44px;
+  }
+
+  .instr-text{
+    width: 472px;
+    padding-left: 44px;
+    padding-right: 167px;
+  }
+
+
+}
+
+@media (min-width: 1025px) and (max-width: 1365px) { 
+  
+  .welcome {
+    position: relative;
+    background-image: url("https://raw.githubusercontent.com/Helga-Nikitina/diploma-2/master/img/welcome.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #fff;
+  }
+
+  .menu {
+    box-sizing: border-box;
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    padding-top: 28px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.2);
+  }
+
+  .menu-list {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .about-list {
+    display: flex;
+  }
+
+  .contact-list {
+    display: flex;
+    text-align: right;
+  }
+
+  .map-img {
+    margin-right: 8px;
+  }
+
+  .menu-list-item {
+    list-style-type: none;
+  }
+
+  .menu-list-item-icon {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu-list-item:nth-child(n+2) {
+    margin-left: 24px;
+  }
+
+  .menu-link {
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 24px;
+    color: #444444;
+    text-decoration: none;
+  }
+
+  .container {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+  }
+
+  .welcome-title {
+    position: relative;
+    width: 592px;
+    padding-top: 120px;
+  }
+
+  .header {
+    font-family: exo;
+    font-size: 64px;
+    line-height: 80px;
+    color: #4A8146;
+    text-align: left;
+    margin-bottom: 24px;
+  }
+
+  .instruction {
+    width: 100%;
+  }
+
+  .article {
+    display: flex;
+    height: 352px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .instr-text-first {
+    width: 50%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 44px;
+  }
+
+  .instr-text{
+    width: 50%;
+    box-sizing: border-box;
+    padding-left: 44px;
+    padding-right: 20px;
+  }
+
+  .dostavka {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .about {
+    width: 680px;
+    margin-bottom: 56px;
+  }
+
+  .first-block{
+    width: 49%;
+  }
+
+  .products {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+  .podpiska {
+    idth: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .podpiska-cards {
+    display: flex;
+  }
+
+  .card {
+    box-sizing: border-box;
+    width: 312px;
+    min-width: 232px;
+    height: 390px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.2);
+    border-radius: 16px;
+
+    background-image: url("https://raw.githubusercontent.com/Helga-Nikitina/diploma-2/master/img/card%20(1).png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    padding-top: 24px;
+    padding-bottom: 16px;
+    text-align: center;
+  }
+
+  .card:nth-child(n+2) {
+    margin-left: 24px;
+  }
+
+  h3 {
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 36px;
+    color: #4A8146;
+    text-align: center;
+    padding-bottom: 16px;
+  }
+
+  .h-card {
+    padding-top: 166px;
+  }
+
+  .subscribe {
+    position: relative;
+    background-image: url("https://raw.githubusercontent.com/Helga-Nikitina/diploma-2/master/img/connect.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #fff;
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .subscription-group {
+    width: 1033px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .field {
+    box-sizing: border-box;
+    width: 504px;
+    height: 56px;
+
+    box-shadow: 0 0 16px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    padding-left: 24px;
+
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 36px;
+    color: #4A8146;
+  }
+
+  .button {
+    box-sizing: border-box;
+    height: 56px;
+    border: none;
+
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+
+    cursor: pointer;
+    margin-left: 16px;
+    background-color: #4A8146;
+    border-radius: 8px;
+    padding: 0 24px 0;
+
+  }
+  
+}
+  
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+  h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .header {
+    font-size: 40px;
+    line-height: 56px;
+  }
+  
+  .menu-list {
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .menu-link {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .container {
+    width: 100%;
+    height: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .welcome-title {
+    width: 356px;
+  }
+
+  .instruction {
+    width: 100%;
+  }
+  
+  .instr-text-first {
+    box-sizing: border-box;
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 44px;
+  }
+  
+  .instr-text{
+    box-sizing: border-box;
+    width: 50%;
+    padding-right: 20px;
+    padding-left: 44px;
+  }
+  
+  .p-instr {
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 20px;
+  }
+  
+  .img-block {
+    width: 50%;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .active-img-1 {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+  }
+  
+  .dostavka {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .products {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .podpiska {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+    
+  .subscription-group {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  
+  .about-list {
+    display: none;
+  }
+  
+  .img-block {
+    display: none;
+  }
+  
+  h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .about {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  
+  .header {
+    font-size: 40px;
+    line-height: 56px;
+  }
+  
+  .menu-list {
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .menu-link {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .container {
+    width: 100%;
+    height: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .welcome-title {
+    width: 356px;
+  }
+
+  .instruction {
+    width: 100%;
+  }
+  
+  .article {
+    display: block;
+    height: auto;
+    padding-top: 24px;
+    padding-bottom: 16px;
+  }
+  
+  .instr-text-first {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .instr-text{
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .p-instr {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .blocks {
+    display: block;
+    height: auto;
+  }
+  
+  .first-block {
+    width: 100%;
+  }
+  
+  .dostavka {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  
+  .products {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    ox-sizing: border-box;
+  }
+
+  .podpiska {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+    
+  .subscription-group {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .product-type {
+    display: flex;
+    wrap: wrap;
+  }
+  
+}
