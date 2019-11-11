@@ -10,14 +10,14 @@ p, a, h1, h2, h3, h4, h5, h6, span, form, input, textarea, hr, br, ul, li, ol, i
 
 @font-face {
   font-family: Roboto;
-  src: url(https://github.com/Helga-Nikitina/diploma-2/blob/master/fonts/Roboto-Regular.ttf);
+  src: url("../fonts/Exo2-Bold.ttf");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: exo;
-  src: url(https://github.com/Helga-Nikitina/diploma-2/blob/master/fonts/Exo2-Bold.ttf);
+  src: url("../fonts/Roboto-Regular.ttf");
   font-style: bold;
   font-weight: 800;
 }
