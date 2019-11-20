@@ -395,6 +395,10 @@ h3 {
   .product:nth-child(n+2) {
     margin-left: 56px;
   }
+  
+  .card:nth-child(n+2) {
+    margin-left: 24px;
+  }
 
 }
 
