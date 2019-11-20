@@ -583,8 +583,7 @@ h3 {
     background-position: center center;
     background-size: cover;
     background-color: #fff;
-    padding-top: 72px;
-    padding-bottom: 72px;
+    padding: 72px 20px;
   }
 
   .subscription-group {
