@@ -105,8 +105,6 @@ p {
 
 .welcome-title {
   position: relative;
-  width: 592px;
-  padding-top: 120px;
 }
 
 .header {
@@ -131,7 +129,6 @@ p {
   align-items: center;
 }
 
-
 .img-block {
   width: 50%;
   background-size: cover;
@@ -143,7 +140,6 @@ p {
   width: auto;
   max-width: 100%;
 }
-
 
 .p-instr {
   font-family: Roboto;
@@ -166,11 +162,6 @@ p {
   margin-right: auto;
 }
 
-.about {
-  width: 680px;
-  margin-bottom: 56px;
-}
-
 .blocks {
   display: flex;
 }
@@ -187,17 +178,19 @@ p {
   margin-right: auto;
 }
 
+.about {
+  width: 680px;
+  margin-bottom: 56px;
+}
+
 .product-type {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .product {
   display: flex;
   align-items: center;
-}
-
-.product:nth-child(n+2) {
-  margin-left: 56px;
 }
 
 .product-img {
@@ -232,10 +225,6 @@ p {
   padding-top: 24px;
   padding-bottom: 16px;
   text-align: center;
-}
-
-.card:nth-child(n+2) {
-  margin-left: 24px;
 }
 
 h3 {
@@ -302,6 +291,7 @@ h3 {
 }
 
 @media (min-width: 1366px) and (max-width: 2560px) {
+  
   .welcome {
     position: relative;
     background-image: url("https://raw.githubusercontent.com/Helga-Nikitina/diploma-2/master/img/welcome.png");
@@ -371,7 +361,6 @@ h3 {
   }
 
   .welcome-title {
-    position: relative;
     width: 592px;
     padding-top: 120px;
   }
@@ -397,12 +386,15 @@ h3 {
     padding-right: 44px;
   }
 
-  .instr-text{
+  .instr-text {
     width: 472px;
     padding-left: 44px;
     padding-right: 167px;
   }
-
+  
+  .product:nth-child(n+2) {
+    margin-left: 56px;
+  }
 
 }
 
@@ -475,7 +467,6 @@ h3 {
   }
 
   .welcome-title {
-    position: relative;
     width: 592px;
     padding-top: 120px;
   }
@@ -525,7 +516,7 @@ h3 {
     margin-bottom: 56px;
   }
 
-  .first-block{
+  .first-block {
     width: 49%;
   }
 
@@ -534,16 +525,15 @@ h3 {
     padding-left: 20px;
     padding-right: 20px;
   }
-
-
-  .podpiska {
-    idth: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
+  
+  .product:nth-child(n+2) {
+    margin-left: 36px;
   }
 
-  .podpiska-cards {
-    display: flex;
+  .podpiska {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .card {
@@ -671,6 +661,7 @@ h3 {
   
   .welcome-title {
     width: 356px;
+    padding-top: 104px;
   }
 
   .instruction {
@@ -720,12 +711,20 @@ h3 {
     padding-left: 20px;
     padding-right: 20px;
   }
+  
+  .product:nth-child(n+2) {
+    margin-left: 80px;
+  }
 
   .podpiska {
     width: 100%;
     box-sizing: border-box;
     padding-left: 20px;
     padding-right: 20px;
+  }
+  
+  .card:nth-child(n+2) {
+    margin-left: 16px;
   }
     
   .subscription-group {
@@ -786,7 +785,8 @@ h3 {
   }
   
   .welcome-title {
-    width: 356px;
+    width: 100%;
+    padding-top: 72px;
   }
 
   .instruction {
@@ -806,7 +806,7 @@ h3 {
     padding-right: 20px;
   }
   
-  .instr-text{
+  .instr-text {
     box-sizing: border-box;
     padding-left: 20px;
     padding-right: 20px;
@@ -837,25 +837,87 @@ h3 {
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
-    ox-sizing: border-box;
+    padding-bottom: 20px;
+    box-sizing: border-box;
   }
-
+  
+  .product-type {
+    display: block;
+    text-align: left;
+  }
+  
+  .product {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+  
   .podpiska {
     width: 100%;
     box-sizing: border-box;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  
+  .podpiska-cards {
+    display: block;
+   } 
+  
+  .card {
+    width: 100%;
+    height: auto;
+    background-image: none;
+    margin-bottom: 24px;
+  }
+  
+  .h-card {
+    padding-top: 40px;
+  }
+  
+  .subscribe {
+    background-color: #F4F4F4;
+    background-image: none;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
   }
     
   .subscription-group {
+    box-sizing: border-box;
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
   }
   
-  .product-type {
-    display: flex;
-    wrap: wrap;
+  .field {
+    box-sizing: border-box;
+    width: 100%;
+    height: 56px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    padding-left: 24px;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4A8146;
   }
+  
+  .button {
+    box-sizing: border-box;
+    width: 100%;
+    height: 56px;
+    border: none;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 0px;
+    margin-top: 16px;
+    background-color: #4A8146;
+    border-radius: 8px;
+    padding: 0 24px 0;
   
 }
