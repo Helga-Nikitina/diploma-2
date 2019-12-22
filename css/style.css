@@ -97,7 +97,7 @@ p {
 }
 
 .menu-link:hover {
-	color: #346330;
+  color: #346330;
 }
 
 .container {
@@ -290,10 +290,10 @@ h3 {
   background-color: #4A8146;
   border-radius: 8px;
   padding: 0 24px 0;
-  
 }
+
 button:hover {
-	background-color: #346330;
+  background-color: #346330;
 }
 
 @media (min-width: 1366px) and (max-width: 2560px) {
@@ -698,5 +698,6 @@ button:hover {
     background-color: #4A8146;
     border-radius: 8px;
     padding: 0 24px 0;
+  }
   
 }
