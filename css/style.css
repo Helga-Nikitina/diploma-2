@@ -344,7 +344,7 @@ h3 {
 }
 
 button:hover {
-	background-color: #346330;
+  background-color: #346330;
 }
 
 
@@ -751,5 +751,6 @@ button:hover {
     background-color: #4A8146;
     border-radius: 8px;
     padding: 0 24px 0;
+  }
   
 }
