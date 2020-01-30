@@ -7,6 +7,9 @@ p, a, h1, h2, h3, h4, h5, h6, span, form, input, textarea, hr, br, ul, li, ol, i
   vertical-align: baseline;
 }
 
+body {
+  min-width: 320px;
+}
 
 @font-face {
   font-family: Roboto;
@@ -97,7 +100,7 @@ p {
 }
 
 .menu-link:hover {
-  color: #346330;
+	color: #346330;
 }
 
 .container {
@@ -153,13 +156,13 @@ p {
   text-align: left;
 }
 
-.dostavka-block {
+.delivery-block {
   background-color: #F4F4F4;
   padding-top: 72px;
   padding-bottom: 72px;
 }
 
-.dostavka {
+.delivery {
   width: 1033px;
   
   margin-left: auto;
@@ -201,7 +204,55 @@ p {
   margin-right: 16px;
 }
 
-.podpiska {
+.product-1 {
+  width: 90px;
+  height: 90px;
+  position: relative;
+  background-image: url("https://raw.githubusercontent.com/Helga-Nikitina/diploma-2/master/img/milk.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #fff;
+  margin-right: 10px;
+}
+
+.product-2 {
+  width: 90px;
+  height: 90px;
+  position: relative;
+  background-image: url("https://raw.githubusercontent.com/Helga-Nikitina/diploma-2/master/img/cream.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #fff;
+  margin-right: 10px;
+}
+
+.product-3 {
+  width: 90px;
+  height: 90px;
+  position: relative;
+  background-image: url("https://raw.githubusercontent.com/Helga-Nikitina/diploma-2/master/img/kefir.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #fff;
+  margin-right: 10px;
+}
+
+.product-4 {
+  width: 90px;
+  height: 90px;
+  position: relative;
+  background-image: url("https://raw.githubusercontent.com/Helga-Nikitina/diploma-2/master/img/cheese.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #fff;
+  margin-right: 10px;
+}
+
+.subscription {
   width: 1033px;
   padding-top: 72px;
   padding-bottom: 72px;
@@ -209,7 +260,7 @@ p {
   margin-right: auto;
 }
 
-.podpiska-cards {
+.subscription-cards {
   display: flex;
 }
 
@@ -293,8 +344,9 @@ h3 {
 }
 
 button:hover {
-  background-color: #346330;
+	background-color: #346330;
 }
+
 
 @media (min-width: 1366px) and (max-width: 2560px) {
 
@@ -385,7 +437,7 @@ button:hover {
     padding-right: 20px;
   }
 
-  .dostavka {
+  .delivery {
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
@@ -401,7 +453,7 @@ button:hover {
     margin-left: 36px;
   }
 
-  .podpiska {
+  .subscription {
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
@@ -479,7 +531,7 @@ button:hover {
     padding-right: 20px;
   }
   
-  .dostavka {
+  .delivery {
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
@@ -495,7 +547,7 @@ button:hover {
     margin-left: 80px;
   }
 
-  .podpiska {
+  .subscription {
     width: 100%;
     box-sizing: border-box;
     padding-left: 20px;
@@ -606,7 +658,7 @@ button:hover {
     width: 100%;
   }
   
-  .dostavka {
+  .delivery {
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
@@ -632,7 +684,7 @@ button:hover {
     margin-bottom: 32px;
   }
   
-  .podpiska {
+  .subscription {
     width: 100%;
     box-sizing: border-box;
     padding-left: 20px;
@@ -641,7 +693,7 @@ button:hover {
     padding-bottom: 40px;
   }
   
-  .podpiska-cards {
+  .subscription-cards {
     display: block;
    } 
   
@@ -654,6 +706,7 @@ button:hover {
   
   .h-card {
     padding-top: 40px;
+    margin-top: 1px;
   }
   
   .subscribe {
@@ -698,6 +751,5 @@ button:hover {
     background-color: #4A8146;
     border-radius: 8px;
     padding: 0 24px 0;
-  }
   
 }
